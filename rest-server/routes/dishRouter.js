@@ -59,3 +59,5 @@ dishRouter.route('/:dishId')
         res.json(resp);
     });
 });
+
+module.exports = dishRouter;
